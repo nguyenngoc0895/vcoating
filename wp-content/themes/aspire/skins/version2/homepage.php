@@ -1,0 +1,1 @@
+   <?php magikAspire_home_layout_oragnizer();?>
