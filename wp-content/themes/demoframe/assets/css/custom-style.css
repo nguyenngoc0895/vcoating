@@ -39,7 +39,7 @@ Author URI: chamsocweb.com
     margin-left: auto;
 }
 body {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 pre{
     white-space: pre-wrap;
@@ -5266,10 +5266,6 @@ a.navi {
 /*testimo*/
 .testimo-thumb {
     margin-bottom: 52px;
-}
-.testimo-info li a {
-    color: #333;
-    font-weight: 700;
 }
 .testimo-info .list-inline-block {
     padding-top: 16px;
@@ -16145,10 +16141,7 @@ cursor: pointer;
 }
 
 .item-testimo4 {
-    display: flex;
-    width: auto;
-    margin: 0;
-    text-align: left;
+    display: block;
 }
 
 .item-testimo4 .round {
@@ -16156,7 +16149,9 @@ cursor: pointer;
 }
 
 .testimo-thumb {
-    width: 37%;
+    width: 39%;
+    display: inline-block;
+    float: left;
 }
 
 .testimo-thumb img {
@@ -16164,6 +16159,26 @@ cursor: pointer;
 }
 
 .testimo-info {
-    margin-left: 90px;
+    width: 61%;
+    display: inline-block;
+    padding-left: 90px;
+}
+
+.testimo-info .desc {
+    width: 70%;
+    color: #373F41;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    margin-top: 90px;
+}
+
+.testimo-info li a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7C7C7C;
+    text-transform: inherit;
 }
 /* End Home Page */
