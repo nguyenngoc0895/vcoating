@@ -5264,14 +5264,6 @@ a.navi {
     bottom: 0;
 }
 /*testimo*/
-.item-testimo4 {
-    text-align: center;
-    margin-top: 35px;
-    margin-left: 40px;
-    margin-right: 40px;
-    width: auto;
-    margin-bottom: 51px;
-}
 .testimo-thumb {
     margin-bottom: 52px;
 }
@@ -5523,25 +5515,7 @@ a.navi {
     width: 15px;
     height: 15px;
 }
-.banner-slider .banner-info h1 {
-    color: #fff;
-    text-transform: uppercase;
-    font-family: "Oswald";
-    letter-spacing: 7px;
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
-.banner-slider .banner-info p {
-    color: #fff;
-    text-transform: uppercase;
-    font-family: "Oswald";
-    letter-spacing: 7px;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 33px;
-}
+
 .banner-1 .banner-info a {
     font-size: 18px;
     font-weight: 700;
@@ -16125,6 +16099,73 @@ cursor: pointer;
     border: 2px solid #179443;
     color: #fff;
 }
+
+/* Home Page */
+
+.vc_home_title_banner {
+    font-weight: 900;
+    line-height: 56px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #fff;
+}
+
+.vc_home_text_banner {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.vc_home_banner_btn button {
+    background: initial;
+    color: #fff;
+    font-size: 14px;
+    height: 42px;
+    padding: 0 24px !important;
+    margin-right: 25px;
+}
+
+.vc_home_banner_btn button:hover {
+    color: #303188;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.vc_title .title18 {
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: initial;
+    color: #303188;
+    margin-bottom: 50px;
+}
+
+.item-testimo4 {
+    display: flex;
+    width: auto;
+    margin: 0;
+    text-align: left;
+}
+
+.item-testimo4 .round {
+    border-radius: 0;
+}
+
+.testimo-thumb {
+    width: 37%;
+}
+
+.testimo-thumb img {
+    width: 100%;
+}
+
+.testimo-info {
+    margin-left: 90px;
+}
+/* End Home Page */
 
 /* header home page */
 #header {
