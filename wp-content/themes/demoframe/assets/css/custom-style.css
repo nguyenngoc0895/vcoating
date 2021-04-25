@@ -16096,7 +16096,6 @@ cursor: pointer;
     color: #fff;
 }
 
-
 /* Home Page */
 
 .vc_home_title_banner {
@@ -16182,3 +16181,113 @@ cursor: pointer;
     text-transform: inherit;
 }
 /* End Home Page */
+
+/* header home page */
+#header {
+    min-height: auto !important;
+}
+#vc_header{
+    display: flex;
+}
+
+#vc_header #vc_logo_header, #vc_menu_header, #vc_button_header {
+    margin: auto;
+}
+
+#vc_button_header .vc_btn3-container{
+    margin-bottom: auto;
+}
+
+#vc_menu_header .main-nav ul li a {
+    padding: 0px 10px !important;
+    color: #FFFFFF;
+    text-transform: none;
+    font-weight: 700;
+    size: 14px;
+    line-height: 18px;
+    height: auto;
+}
+
+#vc_menu_header .main-nav ul li {
+    padding: 23px 0;
+    border-bottom: 3px solid;
+    border-color: #ffffff00;
+}
+
+#vc_menu_header .main-nav ul li:hover a {
+    color: #EC702D;
+}
+#vc_menu_header .main-nav ul li:hover {
+    border-color: #EC702D;
+}
+
+#vc_button_header .vc_btn3.vc_btn3-color-blue.vc_btn3-style-modern {
+    background-color: #303188 !important;
+    border-color: #303188 !important;
+    border-radius: 4px;
+    width: 86px;
+    height: 42px;
+    padding: 10px !important;
+}
+
+#header .vc_menu {
+    padding-left: 72px !important;
+}
+/* end header home page */
+
+/* style header common */
+/* waiting check class for common page */
+/* div#header:has(div#vc_header_common) {
+    min-height: auto !important;
+    background-color: #303188;
+    background-image:none !important;
+} */
+#vc_header_common {
+    display: flex;
+}
+
+#vc_header_common #vc_header_common_logo, #vc_header_common_menu, #vc_header_common_button {
+    margin: auto;
+}
+
+#vc_header_common_button .vc_btn3-container{
+    margin-bottom: auto;
+}
+
+#vc_header_common_menu .main-nav ul li a {
+    padding: 0px 10px !important;
+    color: #FFFFFF;
+    text-transform: none;
+    font-weight: 700;
+    size: 14px;
+    line-height: 18px;
+    height: auto;
+}
+
+#vc_header_common_menu .main-nav ul li {
+    padding: 23px 0;
+    border-bottom: 3px solid;
+    border-color: #ffffff00;
+}
+
+#vc_header_common_menu .main-nav ul li:hover a {
+    color: #EC702D;
+}
+#vc_header_common_menu .main-nav ul li:hover {
+    border-color: #EC702D;
+}
+
+#vc_header_common_button .vc_general {
+    background-color: #EC702D !important;
+    border-color: #EC702D !important;
+    border-radius: 4px;
+    width: 86px;
+    height: 42px;
+    padding: 10px !important;
+    color: #FFFFFF;
+}
+
+#vc_header_common .vc_menu {
+    padding-left: 72px !important;
+}
+/* end style header common */
