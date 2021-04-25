@@ -5264,14 +5264,6 @@ a.navi {
     bottom: 0;
 }
 /*testimo*/
-.item-testimo4 {
-    text-align: center;
-    margin-top: 35px;
-    margin-left: 40px;
-    margin-right: 40px;
-    width: auto;
-    margin-bottom: 51px;
-}
 .testimo-thumb {
     margin-bottom: 52px;
 }
@@ -16140,5 +16132,38 @@ cursor: pointer;
     color: #303188;
     background-color: #ffffff;
     border-color: #ffffff;
+}
+
+.vc_title .title18 {
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: initial;
+    color: #303188;
+    margin-bottom: 50px;
+}
+
+.item-testimo4 {
+    display: flex;
+    width: auto;
+    margin: 0;
+    text-align: left;
+}
+
+.item-testimo4 .round {
+    border-radius: 0;
+}
+
+.testimo-thumb {
+    width: 37%;
+}
+
+.testimo-thumb img {
+    width: 100%;
+}
+
+.testimo-info {
+    margin-left: 90px;
 }
 /* End Home Page */
