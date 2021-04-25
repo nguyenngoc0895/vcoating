@@ -16170,6 +16170,12 @@ cursor: pointer;
 /* header home page */
 #header {
     min-height: auto !important;
+    background-color: #303188;
+    background-image: none;
+}
+.home #header {
+    background-color:unset !important;
+    /* background-image: url() !important; */
 }
 #vc_header{
     display: flex;
@@ -16221,12 +16227,7 @@ cursor: pointer;
 /* end header home page */
 
 /* style header common */
-/* waiting check class for common page */
-/* div#header:has(div#vc_header_common) {
-    min-height: auto !important;
-    background-color: #303188;
-    background-image:none !important;
-} */
+
 #vc_header_common {
     display: flex;
 }
@@ -16276,3 +16277,87 @@ cursor: pointer;
     padding-left: 72px !important;
 }
 /* end style header common */
+
+/* footer style */
+#footer {
+    background-color: #303188;
+}
+
+#footer_logo {
+    padding: 60px 0 30px;
+}
+
+#footer .wpb_column.column_container.col-sm-3 {
+    padding: 30px 30px 40px 0px !important;
+}
+
+#footer .footer-text-title{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+#footer .footer-text-content{
+    font-size: 14px;
+    color: #BBBCEE;
+}
+
+#footer .icon-map {
+    width: 20px;
+    height: 20px;
+    background: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: -2px;
+    position: absolute;
+}
+
+#footer .location-content {
+    margin: 20px 0px 0px 29px;
+}
+
+#footer a.footer-text-content{
+    margin-top: 12px;
+    display: inline-block;
+}
+
+#footer p.footer-text-content{
+    margin-top: 20px;
+}
+
+#footer p.footer-hotline-content{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #EC702D;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+#footer .icon-map::after {
+    content: '\f041';
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+    margin: 0px 0px 0px 5px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #303188;
+}
+
+#footer .copy-right {
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    border-top: 1px solid #FFFFFF;
+}
+
+#footer .vc_row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#footer .copy-right-content {
+    font-size: 14px;
+    font-weight: 400;
+    color: #BBBCEE;
+}
+/* end footer end */
