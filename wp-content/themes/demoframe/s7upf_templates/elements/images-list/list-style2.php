@@ -22,9 +22,9 @@ if(empty($itemres)) $itemres = '0:1';
                                         'alt' => $value['des'],
                                         );
                             ?>
-                                        
-                                        <?php echo wp_get_attachment_image($value['image'],$size,false,$attr_item);?>
-                                        
+                                        <div class='box-img'>
+                                            <?php echo wp_get_attachment_image($value['image'],$size,false,$attr_item);?>
+                                        </div>
                                         
                         <?php }
                     }?>
