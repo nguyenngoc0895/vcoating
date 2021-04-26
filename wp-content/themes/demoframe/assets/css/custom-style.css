@@ -16294,6 +16294,7 @@ cursor: pointer;
 .vc_home_products.blogs .item-post .post-info .excerpt {
     font-size: 14px;
     letter-spacing: 0.2px;
+    text-align: left;
 }
 
 .vc_home_products.blogs.title_blog .list-post-wrap {
@@ -16304,6 +16305,27 @@ cursor: pointer;
 .vc_home_products.blogs.title_blog .desc-block, .vc_home_products.blogs.title_blog .block-element>h3.title18{
     display: block;
 }
+
+.vc_home_products .list-post-wrap .wrap-item .item-post {
+    padding: 0 19px;
+}
+
+.vc_view_all_post {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    margin: 0;
+    z-index: 1;
+}
+
+.vc_view_all_post button {
+    color: #303188 !important;
+    border-color: #303188 !important;
+    border-radius: 5px !important;
+    height: 42px;
+    padding: 0 17px !important;
+}
+
 /* End Home Page */
 
 /* header home page */

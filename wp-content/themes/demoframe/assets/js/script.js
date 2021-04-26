@@ -933,6 +933,9 @@
 	});
 
 	$(window).load(function(){
+		var leftMarginPostBlock = document.getElementById("vc_posts").offsetLeft;
+		leftMarginPostBlock = -leftMarginPostBlock - 7
+		$("#vc_posts .blog-slider-view").css("margin-left", leftMarginPostBlock+"px");
 		s7upf_owl_slider();
 		s7upf_all_slider();
 		auto_width_megamenu();		
