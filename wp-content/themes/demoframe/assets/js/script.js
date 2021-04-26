@@ -933,6 +933,15 @@
 	});
 
 	$(window).load(function(){
+		var leftMarginPostBlock = document.getElementById("vc_posts").offsetLeft;
+		leftMarginPostBlock = -leftMarginPostBlock - 7
+		$("#vc_posts .blog-slider-view").css("margin-left", leftMarginPostBlock+"px");
+
+		var rightMarginBannerBlock = document.getElementById("vc_banner_2item").offsetLeft;
+		rightMarginBannerBlock = -rightMarginBannerBlock
+		console.log('rightMarginBannerBlock', rightMarginBannerBlock);
+		$(".vc_child_row").css("margin-right", rightMarginBannerBlock+"px");
+
 		s7upf_owl_slider();
 		s7upf_all_slider();
 		auto_width_megamenu();		
