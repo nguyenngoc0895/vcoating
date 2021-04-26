@@ -16361,3 +16361,65 @@ cursor: pointer;
     color: #BBBCEE;
 }
 /* end footer end */
+
+/* style page dich vu */
+#main-content h2.font-bold.text-uppercase {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #303188;
+}
+
+#main-content .banner-info {
+    position: relative;
+}
+
+#main-content .banner-info .container {
+    position: absolute !important;
+    position: absolute;
+    bottom: 94px;
+    right: -50px;
+}
+
+#main-content .banner-info .service-header-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#main-content .banner-info .service-text-link {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#main-content .vc_row.wpb_row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#main-content #service-row {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#main-content #service-row .col-sm-6:first-child {
+    padding-left: 0px !important;
+    padding-right: 20px;
+}
+
+#main-content #service-row .col-sm-6:last-child {
+    padding-left: 20px;
+    padding-right: 0px !important;
+}
+
+#main-content #service-row .banner-thumb img.attachment-full {
+    height: fit-content !important;
+}
+
+#main-content {
+    margin-bottom: 0px !important;
+}
+
+/* end style dich vu */
