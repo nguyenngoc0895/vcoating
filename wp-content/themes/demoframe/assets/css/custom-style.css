@@ -16618,9 +16618,9 @@ body.home {
     color: #303188;
 }
 
-/* #main-content .banner-info {
+#main-content .banner-info {
     position: relative;
-} */
+}
 
 #main-content .banner-info .container {
     position: absolute !important;
