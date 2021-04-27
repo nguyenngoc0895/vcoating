@@ -16611,38 +16611,38 @@ body.home {
 /* end footer end */
 
 /* style page dich vu */
-#main-content h2.font-bold.text-uppercase {
+#main-content #service-row h2.font-bold.text-uppercase {
     font-size: 42px;
     font-weight: 700;
     line-height: 40px;
     color: #303188;
 }
 
-#main-content .banner-info {
+#main-content #service-row .banner-info {
     position: relative;
 }
 
-#main-content .banner-info .container {
+#main-content #service-row .banner-info .container {
     position: absolute !important;
     position: absolute;
     bottom: 94px;
     right: -50px;
 }
 
-#main-content .banner-info .service-header-title {
+#main-content #service-row .banner-info .service-header-title {
     font-size: 32px;
     font-weight: 700;
     line-height: 24px;
 }
 
-#main-content .banner-info .service-text-link {
+#main-content #service-row .banner-info .service-text-link {
     font-size: 16px;
     line-height: 24px;
     font-weight: 700;
     text-decoration: underline;
 }
 
-#main-content .vc_row.wpb_row {
+#main-content #service-row .vc_row.wpb_row {
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -16666,8 +16666,8 @@ body.home {
     height: fit-content !important;
 }
 
-#main-content {
+/* #main-content {
     margin-bottom: 0px !important;
-}
+} */
 
 /* end style dich vu */
