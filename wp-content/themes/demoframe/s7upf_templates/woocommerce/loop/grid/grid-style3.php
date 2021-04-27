@@ -11,32 +11,24 @@ else $col_class = '';
 		<div class="product-thumb">
 			<div class="img-lable">
 				<?php s7upf_woocommerce_thumbnail_loop($size,$animation);?>
-				<?php s7upf_product_label()?>
-				<div class="list-product-extra-link">
-					<?php s7upf_product_quickview()?>
-					<?php echo s7upf_compare_url();?>
-					<?php echo s7upf_wishlist_url();?>
-				</div>
 			</div>
 			<?php do_action( 'woocommerce_before_shop_loop_item_title' );?>
 		</div>
 		<div class="product-info">
-			<h3 class="title14 product-title">
-				<a title="<?php echo esc_attr(get_the_title())?>" href="<?php the_permalink()?>"><?php the_title()?></a>
-			</h3>
-			<?php do_action( 'woocommerce_shop_loop_item_title' );?>
-			<?php do_action( 'woocommerce_after_shop_loop_item_title' );?>
-			<?php s7upf_get_price_html()?>
-			<?php s7upf_get_rating_html()?>
-			<div class="adtocart_detail">
-				<div class="product-extra-link">
-					<?php s7upf_addtocart_link();?>
-				</div>
-				<div class="detail">
-					<a href="<?php echo esc_url(get_the_permalink()); ?>" class="more-detail"><span><?php echo esc_html__("More Detail","hama"); ?></span></a>
-				</div>
-			</div>
+			<?php
+				if ( count(get_attributes_product()) ) {
+					foreach ( get_attributes_product() as $sanPham ) {
+						?>
+						<div class="vc_attribute_product">
+						<p class="vc_attribute_name"><?php echo $sanPham['name']; ?></p>
+						<p class="vc_attribute_options"><?php echo $sanPham['options'][0]; ?></p>
+						</div>
+						<?php
+					}
+				}
+			?>
 		</div>		
 		<?php do_action( 'woocommerce_after_shop_loop_item' );?>
+		
 	</div>
 </div>
