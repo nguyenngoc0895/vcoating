@@ -16472,6 +16472,10 @@ body.home {
 #header .vc_menu {
     padding-left: 72px !important;
 }
+
+.home .wrap-bread-crumb {
+    display: none;
+}
 /* end header home page */
 
 /* style header common */
@@ -16671,3 +16675,31 @@ body.home {
 } */
 
 /* end style dich vu */
+
+/* page product */
+.vc_product_page p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    color: #373F41;
+    padding-bottom: 25px;
+}
+
+.vc_product_page a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    color: #373F41;
+    text-transform: initial;
+    display: block;
+}
+
+.vc_product_page a.active {
+    color: #EC702D;
+}
+/* end page product */
