@@ -16398,7 +16398,7 @@ cursor: pointer;
 .home .title-page.page {
     display: none;
 }
-
+/* 
 body.home #header {
     position: absolute;
     top: 0;
@@ -16408,7 +16408,7 @@ body.home #header {
 }
 body.home {
     position: relative;
-}
+} */
 /* End Home Page */
 
 /* header home page */
@@ -16417,10 +16417,10 @@ body.home {
     background-color: #303188;
     background-image: none;
 }
-.home #header {
+/* .home #header {
     background-color:unset !important;
     /* background-image: url() !important; */
-}
+} */
 #vc_header{
     display: flex;
 }
