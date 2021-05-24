@@ -16082,36 +16082,40 @@ cursor: pointer;
 }
 
 .vc_home_text_banner {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 41px;
     color: #fff;
     margin-bottom: 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 2px;
 }
 
 .vc_home_banner_btn button {
     background: initial;
     color: #fff;
     font-size: 14px;
-    height: 42px;
-    padding: 0 24px !important;
+    height: 32px;
+    padding: 0 30px !important;
     margin-right: 25px;
+    line-height: 17px;
 }
 
 .vc_home_banner_btn button:hover {
-    color: #303188;
+    color: #F17321;
     background-color: #ffffff;
     border-color: #ffffff;
 }
 
 .vc_title .title18 {
-    font-size: 42px;
-    line-height: 55px;
-    font-weight: 700;
     text-align: center;
-    text-transform: initial;
-    color: #303188;
+    color: #BCBCBC;
     margin-bottom: 50px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
 }
 
 .item-testimo4 {
@@ -16184,8 +16188,48 @@ cursor: pointer;
 }
 
 .vc_home_content_sv {
+    max-width: 380px;
+    height: 320px;
     text-align: center;
-    padding: 0 15px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.vc_home_content_box {
+    width: 100%;
+    background: #383388c7;
+    color: #FFFFFF;
+    height: 100%;
+    position: relative;
+    bottom: -239px;
+    transition: 0.3s;
+}
+
+.vc_home_content_sv:hover .vc_home_content_box {
+    bottom: 0;
+}
+
+.vc_home_content_box h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 28px 0 40px 0;
+}
+
+.vc_dich_vu_mo_ta p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #3E3E3C;
+    max-width: 782px;
+    margin: 20px auto;
+    margin-bottom: 0;
 }
 
 .vc_home_content_sv h4 {
@@ -16195,16 +16239,42 @@ cursor: pointer;
 }
 
 .vc_home_content_sv h5 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 20px;
+    text-align: left;
+    padding: 0 28px;
+    position: absolute;
+    bottom: 82px;
+    margin-bottom: 0;
+}
+
+.vc_home_content_box p {
+    text-align: left;
+    position: absolute;
+    bottom: 32px;
+    margin-left: 28px;
+}
+
+.vc_home_content_box .arrow {
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    position: relative;
+    left: -22px;
+  }
+  
+.vc_home_content_box .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
 
 .vc_home_content_sv a {
     font-size: 14px;
-    font-weight: 800;
-    line-height: 18px;
-    color: #303188;
+    color: #fff;
+    padding: 6px 97px 8px 10px;
+    background: #EC702D;
 }
 
 .vc_home_content_sv img {
@@ -16252,12 +16322,20 @@ cursor: pointer;
 
 .vc_home_products .block-element>h3.title18 {
     font-weight: bold;
-    font-size: 42px;
+    font-size: 48px;
     line-height: 40px;
-    color: #303188;
+    color: #ffffff;
     margin-bottom: 50px;
     text-align: left;
-    text-transform: none;
+    text-transform: uppercase;
+}
+
+.vc_home_product_list {
+    color: #ffffff;
+}
+
+.vc_home_product_list .product-title a {
+    color: #ffffff;
 }
 
 .vc_home_products.blogs .block-element>h3.title18 {
@@ -16414,7 +16492,6 @@ body.home {
 /* header home page */
 #header {
     min-height: auto !important;
-    background-color: #303188;
     background-image: none;
 }
 /* .home #header {
@@ -16494,7 +16571,7 @@ body.home {
 
 #vc_header_common_menu .main-nav ul li a {
     padding: 0px 10px !important;
-    color: #FFFFFF;
+    color: #303188;
     text-transform: none;
     font-weight: 700;
     size: 14px;
@@ -16503,16 +16580,13 @@ body.home {
 }
 
 #vc_header_common_menu .main-nav ul li {
-    padding: 23px 0;
+    padding: 27px 0;
     border-bottom: 3px solid;
     border-color: #ffffff00;
 }
 
 #vc_header_common_menu .main-nav ul li:hover a {
     color: #EC702D;
-}
-#vc_header_common_menu .main-nav ul li:hover {
-    border-color: #EC702D;
 }
 
 #vc_header_common_button .vc_general {
