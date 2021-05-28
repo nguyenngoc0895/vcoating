@@ -856,6 +856,8 @@
 		product_detail_gallery();
 		tool_panel();
 		//fix row bg
+		var btnProductLink = "<a class='vc-btn-product-link' href='#'>Liên hệ CSKH.</a>";     
+		$(".vc_home_product_list .desc-block").append(btnProductLink);
 		$('.fix-row-bg').each(function(){
 			var row_class = $(this).attr('class');
 			row_class = row_class.replace('vc_row wpb_row','');

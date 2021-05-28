@@ -448,6 +448,10 @@ if(class_exists("woocommerce")){
             return apply_filters( 's7upf_product_price',$html);
         }
     }
+    function get_attributes_product() {
+        global $product;
+        return $product->get_attributes();
+    }
     if(!function_exists('s7upf_get_rating_html')){
         function s7upf_get_rating_html($echo = true, $count = true, $style = ''){
             if ( get_option( 'woocommerce_enable_review_rating' ) === 'no' ) return;
