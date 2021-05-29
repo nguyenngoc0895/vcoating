@@ -28,6 +28,20 @@
                                             <a data-toggle="tab" href="#<?php echo $a; ?>" aria-expanded="true">
                                                 <?php echo esc_html($value['tang']);?>
                                             </a>
+                                            <div class="noidunganh">
+                                                <span class="text1"><?php echo esc_html($value['noidung']);?></span>
+                                                <span class="text2"><?php echo esc_html($value['noidung2']);?></span>
+                                                <?php if(!empty($value['contentgd'])) :?>
+                                                <div class="text3"><?php echo esc_html($value['contentgd']);?></div>
+                                                <?php endif; ?>
+                                                <?php if(!empty($value['contentgd2'])) :?>
+                                                <div class="text3"><?php echo esc_html($value['contentgd2']);?></div>
+                                                <?php endif; ?>
+                                                <?php if(!empty($value['contentgd3'])) :?>
+                                                <div class="text3"><?php echo esc_html($value['contentgd3']);?></div>
+                                                <?php endif; ?>
+                                                <div class="btn-scien"><a href="<?php echo esc_url($value['link_v']); ?>" title="">Liên hệ ngay</a></div>
+                                            </div>
                                         </li>
                                                 
                                     <?php $a ++;
@@ -53,20 +67,6 @@
                                 <div id="<?php echo $a; ?>" class="tab-pane imglist <?php echo $dem; ?>">
                                     <div class="anh">
                                     <a href="<?php echo wp_get_attachment_url($value['image1']); ?>" data-fancybox="images" class="fancybox-tang"><?php echo wp_get_attachment_image($value['image1'],false,$attr_item);?></a>
-                                    </div>
-                                    <div class="noidunganh">
-                                        <span class="text1"><?php echo esc_html($value['noidung']);?></span>
-                                        <span class="text2"><?php echo esc_html($value['noidung2']);?></span>
-                                        <?php if(!empty($value['contentgd'])) :?>
-                                        <div class="text3"><?php echo esc_html($value['contentgd']);?></div>
-                                        <?php endif; ?>
-                                        <?php if(!empty($value['contentgd2'])) :?>
-                                        <div class="text3"><?php echo esc_html($value['contentgd2']);?></div>
-                                        <?php endif; ?>
-                                        <?php if(!empty($value['contentgd3'])) :?>
-                                        <div class="text3"><?php echo esc_html($value['contentgd3']);?></div>
-                                        <?php endif; ?>
-                                        <div class="btn-scien"><a href="<?php echo esc_url($value['link_v']); ?>" title="">Xem chi tiết</a></div>
                                     </div>
                                 </div>
 
