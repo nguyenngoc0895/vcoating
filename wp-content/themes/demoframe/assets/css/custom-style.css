@@ -15844,35 +15844,9 @@ body .scroll-top i:before{
     margin-bottom: 1px;
     text-align: left;
 }
-.list-tang .tab-header ul li a {
-    text-decoration: none;
-    display: block;
-    padding-left: 30px;
-    color: #756969;
-    font-size: 17px;
-    font-weight: 700;
-    border: none;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    background: #fff;
-    border-radius: 0;
-}
+
 .list-tang .tab-header ul {
     border: none;
-}
-.list-tang .nav-tabs>li.active>a,
-.list-tang .nav-tabs>li.active>a:focus,
-.list-tang .nav-tabs>li.active>a:hover {
-    text-decoration: none;
-    display: block;
-    color: #756969;
-    font-weight: 700;
-    border: none;
-}
-.list-tang .tab-header ul li:hover a ,
-.list-tang .nav-tabs>li:hover.active>a{
-    background: #179443;
-    color: #fff;
 }
 .list-tang:after ,
 .list-tang .tab-content .tab-pane:after {
@@ -16951,4 +16925,97 @@ margin-right: 13px;
 
 a.vc_f_link:hover {
 	color: #ffffff;
+}
+
+.vc_page_dich_vu .tab-header li > a, 
+.vc_page_dich_vu .tab-header li > a:hover{
+	font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.1px;
+text-transform: uppercase;
+background: #EC702D;
+color: #FFFFFF;
+    padding: 31px 140px 31px 209px;
+position: relative;
+}
+.list-tang .tab-header {
+    width: 530px;
+}
+.list-tang .tab-content {
+    width: calc(100% - 540px);
+}
+.vc_page_dich_vu .tab-header li:first-child > a::before{
+  content:url('Vector.png');
+ top: 36px;
+    left: 127px;
+position: absolute;
+}
+.vc_page_dich_vu .tab-header li.active:first-child > a::before{
+  content:url('Vector02.png');
+}
+.vc_page_dich_vu .tab-header li:nth-child(2) > a::before{
+  content:url('Vector1.png');
+ top: 36px;
+    left: 127px;
+position: absolute;
+}
+.vc_page_dich_vu .tab-header li.active:nth-child(2) > a::before{
+  content:url('Vector12.png');
+}
+.vc_page_dich_vu .tab-header li:last-child > a::before{
+  content:url('Vector2.png');
+ top: 36px;
+    left: 127px;
+position: absolute;
+}
+.vc_page_dich_vu .tab-header li.active:last-child > a::before{
+  content:url('Vector22.png');
+}
+
+.vc_page_dich_vu .tab-header li .noidunganh {
+	height: 0;
+    visibility: hidden;
+}
+
+.vc_page_dich_vu .tab-header li.active .noidunganh {
+	height: auto;
+    visibility: visible
+}
+
+.vc_page_dich_vu .tab-header li.active, .vc_page_dich_vu .tab-header li.active > a {
+background: #F3F6FA;
+}
+.vc_page_dich_vu .tab-header li.active > a {
+color: #313336;
+
+}
+.vc_page_dich_vu .tab-header li > a, .vc_page_dich_vu .tab-header li:hover > a, .vc_page_dich_vu .tab-header li > a:hover,
+.vc_page_dich_vu .tab-header li > a:focus {
+	border: none;
+	margin: 0
+}
+.vc_page_dich_vu .noidunganh .text1, .vc_page_dich_vu .noidunganh .text2 {
+color: #313336;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding: 0px 40px 27px 126px;
+    margin-bottom: 0;
+}
+
+.vc_page_dich_vu .btn-scien a {
+    color: #ffffff;
+    background: #ec702d;
+    padding: 8px 19px;
+    text-transform: initial;
+    font-size: 14px;
+margin-left: -156px;
+    font-weight: 500;
+}
+.list-tang.vc_page_dich_vu .btn-scien {
+margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
 }
