@@ -865,6 +865,9 @@
 			$(this).removeClass('fix-row-bg');
 			$(this).wrap('<div class="wrap-vc-row'+row_class+'"></div>');
 		})
+
+		//
+		$(".vc_page_products .img-lable a").removeAttr( "href" );
 		//Cat search
 		$('.select-cat-search').on('click',function(event){
 			event.preventDefault();
