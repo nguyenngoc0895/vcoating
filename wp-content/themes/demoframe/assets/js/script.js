@@ -865,6 +865,8 @@
 			$(this).removeClass('fix-row-bg');
 			$(this).wrap('<div class="wrap-vc-row'+row_class+'"></div>');
 		})
+		// remove
+		$( ".vc_slider_custom  .item-image-list-slider .text" ).remove();
 
 		//
 		$(".vc_page_products .img-lable a").removeAttr( "href" );
@@ -938,14 +940,17 @@
 	});
 
 	$(window).load(function(){
-		var leftMarginPostBlock = document.getElementById("vc_posts").offsetLeft;
-		leftMarginPostBlock = -leftMarginPostBlock - 7
-		$("#vc_posts .blog-slider-view").css("margin-left", leftMarginPostBlock+"px");
-
-		var rightMarginBannerBlock = document.getElementById("vc_banner_2item").offsetLeft;
-		rightMarginBannerBlock = -rightMarginBannerBlock
-		console.log('rightMarginBannerBlock', rightMarginBannerBlock);
-		$(".vc_child_row").css("margin-right", rightMarginBannerBlock+"px");
+		if(document.getElementById("vc_posts") !== null) {
+			var leftMarginPostBlock = document.getElementById("vc_posts").offsetLeft;
+			leftMarginPostBlock = -leftMarginPostBlock - 7
+			$("#vc_posts .blog-slider-view").css("margin-left", leftMarginPostBlock+"px");
+		}
+		if(document.getElementById("vc_banner_2item") !== null) {
+			var rightMarginBannerBlock = document.getElementById("vc_banner_2item").offsetLeft;
+			rightMarginBannerBlock = -rightMarginBannerBlock
+			console.log('rightMarginBannerBlock', rightMarginBannerBlock);
+			$(".vc_child_row").css("margin-right", rightMarginBannerBlock+"px");
+		}
 
 		s7upf_owl_slider();
 		s7upf_all_slider();
