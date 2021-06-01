@@ -17218,3 +17218,42 @@ color: #373F41;
 .vc_sanpham_tab ul li.vc_sp_khac {
 height: 50px;
 }
+.vc_page_duan_img .col-sm-12 {
+    padding: 0;
+}
+.vc_page_duan_img  .vc_figure, .vc_page_duan_img .vc_figure div, .vc_page_duan_img  .vc_figure img {
+    width: 100%;
+}
+.vc_title_content_page_duan .tt1 {
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: #FFFFFF;
+    display: inline-block;
+    float: left;
+}
+.vc_title_content_page_duan .vc_tt_des {
+float: right;
+min-width: 300px;
+}
+
+.vc_title_content_page_duan .vc_tt_des span {
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+float: right;
+}
+.vc_title_content_page_duan .vc_tt_des .vc_attr_des {
+    float: left;
+}
+.vc_box_duan_tt {
+position: relative
+}
+.vc_box_duan_tt::after {
+
+content: "";
+    display: table;
+    clear: both;
+}
