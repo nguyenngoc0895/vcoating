@@ -11,6 +11,12 @@ $size = s7upf_size_random($size);
     </div>
     <div class="post-info">
         <h3 class="title18 post-title"><a href="<?php echo esc_url(get_the_permalink()) ?>"><?php the_title()?></a></h3>
+         <ul class="blog-total-info">
+            <li class="date time-hd">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <span class="silver"><?php the_time('d/m/Y');?></span>
+            </li>
+        </ul>
         <?php if($excerpt) echo '<p class="desc">'.s7upf_substr(get_the_excerpt(),0,(int)$excerpt).'</p>';?>
         <?php
         $excerpt = get_the_excerpt();

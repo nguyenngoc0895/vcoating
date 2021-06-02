@@ -952,6 +952,18 @@
 			$(".vc_child_row").css("margin-right", rightMarginBannerBlock+"px");
 		}
 
+		$(".vc_post_loadmore .list-col-item").slice(0, 4).show();
+		$("#load-more-vc").on('click', function (e) {
+			e.preventDefault();
+			$(".vc_post_loadmore .list-col-item:hidden").slice(0, 4).slideDown();
+			if ($(".vc_post_loadmore .list-col-item:hidden").length == 0) {
+				$("#load").fadeOut('slow');
+			}
+			$('html,body').animate({
+				scrollTop: $(this).offset().top
+			}, 1500);
+		});
+
 		s7upf_owl_slider();
 		s7upf_all_slider();
 		auto_width_megamenu();		
