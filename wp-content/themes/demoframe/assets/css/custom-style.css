@@ -17673,3 +17673,8 @@ a.vc_lienhe_a::after {
     margin-bottom: 25px;
     padding-bottom: 15px;
 }
+.vc_home_products.blogs .item-post .post-info .excerpt {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
