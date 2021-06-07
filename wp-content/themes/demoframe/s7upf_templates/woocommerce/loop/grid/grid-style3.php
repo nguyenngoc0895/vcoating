@@ -15,6 +15,7 @@ else $col_class = '';
 			<?php do_action( 'woocommerce_before_shop_loop_item_title' );?>
 		</div>
 		<div class="product-info">
+			<h3 class="title14 product-title"><?php the_title()?></h3>
 			<?php
 				if ( count(get_attributes_product()) ) {
 					foreach ( get_attributes_product() as $sanPham ) {
