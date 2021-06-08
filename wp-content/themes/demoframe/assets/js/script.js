@@ -871,6 +871,7 @@
 		//
 		$(".vc_page_products .img-lable a").removeAttr( "href" );
 		$(".vc_home_product_list .img-lable a").removeAttr( "href" );
+		$(".vc_home_product_list .product-title a").removeAttr( "href" );
 		//Cat search
 		$('.select-cat-search').on('click',function(event){
 			event.preventDefault();
