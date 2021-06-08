@@ -937,6 +937,9 @@
 			$('.size_chart_img').removeClass("active");
 			$('.fuzzy_size_chart').removeClass("active");
 		});
+		$('.dropbtn123').on('click',function(event){
+			$('#myDropdown123').toggleClass("active");
+		});
 
 	});
 
