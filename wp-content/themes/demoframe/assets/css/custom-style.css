@@ -17811,3 +17811,8 @@ a.vc_lienhe_a::after {
         padding-right: 0;
     }
 }
+@media (max-width: 1200px){
+    .main-nav .toggle-mobile-menu span, .main-nav .toggle-mobile-menu::after, .main-nav .toggle-mobile-menu::before {
+        background: #303188;
+    }
+}

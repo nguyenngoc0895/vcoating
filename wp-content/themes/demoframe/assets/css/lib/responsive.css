@@ -55,6 +55,31 @@
 	}
 }
 @media (max-width: 1200px){
+	#vc_banner_2item.vc_row.vc_row-no-padding .wpb_column {
+		width: 100% !important;
+	}
+	#vc_banner_2item.vc_row.vc_row-no-padding .vc_child_row,
+	#vc_banner_2item .wpb_single_image .vc_single_image-wrapper,
+	#vc_banner_2item .wpb_single_image .vc_figure {
+		display: block;
+	}
+	#vc_banner_2item .vc_child_row .banner-slider {
+		position: initial;
+		width: 100%;
+		background: #303188;
+		left: 0;
+		top: 0;
+		transform: initial;
+		color: #fff;
+		height: 100%;
+		display: block;
+		max-height: 300px;
+		overflow: hidden;
+	}
+	#vc_banner_2item .wpb_single_image img {
+		width: 100%;
+		object-fit: cover;
+	}
 	.header-bottom .main-nav {
 	    margin-top: 0;
 	}
@@ -131,7 +156,7 @@
 	    margin-top: 0;
 	}
 	.header-bottom .click_search i {
-	    color: #179443;
+	    color: #303188;
 	}
 	.main-nav>ul>li.menu-item-has-children::after {
 	    display: none;
@@ -207,13 +232,20 @@
         transform: translateX(-320px);
         -webkit-transform: translateX(-320px);
         text-align: left;
-        padding-top: 50px !important;
+		padding-top: 40px !important;
     }
     .main-nav>ul>li {
-        display: block;
-        margin: 0 15px!important;
-        padding: 0!important;
+		display: block;
+		margin: 0;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+		vertical-align: middle;
+		height: 40px;
+		border-bottom: none !important;
     }
+	#vc_header_common_menu .main-nav ul li a {
+		padding-top: 12px !important;
+	}
     .main-nav .toggle-mobile-menu {
 	    -webkit-transition: all 0.5s;
 	    -moz-transition: all 0.5s;
@@ -267,7 +299,7 @@
 	    height: 40px;
 	    left: 0;
 	    right: 0;
-	    background: #179443;
+	    background: #303188;
 	    display: block;
 	    position: absolute;
 	    top: 0;
@@ -334,7 +366,7 @@
 	    position: relative;
 	    width: 40px;
 	    height: 40px;
-	    background: #179443;
+	    background: #303188;
 	}
 	.main-nav .sub-menu li {
 		border: none !important;	    
@@ -419,7 +451,7 @@
 	    transform: rotate3d(0,0,1,-45deg);
 	}
 	.main-nav .toggle-mobile-menu span, .main-nav .toggle-mobile-menu::after, .main-nav .toggle-mobile-menu::before {
-	    background: #179443;
+	    background: #303188;
 	}
 	.header-page .main-nav.menu-sticky-on.active {
 	    z-index: 99999;
@@ -539,6 +571,13 @@
 	}
 }
 @media (max-width: 1024px) {
+	.vc_home_products.blogs .desc-block {
+		width: 100%;
+	}
+	.vc_home_product_list .desc-block {
+		width: 100%;
+		margin-left: 0;
+	}
 	.truso .ts span, .truso .ts a {
 	    font-size: 14px;
 	}
