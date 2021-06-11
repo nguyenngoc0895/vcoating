@@ -1,3 +1,21 @@
+@media (max-width: 1440px) {
+	.vc_page_dich_vu .tab-header li > a {
+		padding-right: 0;
+		padding-left: 170px;
+	}
+	.vc_page_dich_vu .tab-header li.active > a {
+		padding-right: 0;
+	}
+	.vc_page_dich_vu .tab-header li:first-child > a::before,
+	.vc_page_dich_vu .tab-header li:nth-child(2) > a::before,
+	.vc_page_dich_vu .tab-header li:last-child > a::before {
+		left: 88px;
+	}
+	.list-tang.vc_page_dich_vu .btn-scien {
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
+}
 @media (max-width: 1366px) {
 	.header-shop .currency-language > li:first-child {
 	    right: -2px;
@@ -55,6 +73,36 @@
 	}
 }
 @media (max-width: 1200px){
+	#vc_header_common_logo {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.list-tang.vc_page_dich_vu .btn-scien {
+		width: 100%;
+		padding-left: 0;
+		margin-right: 0;
+		margin-left: auto;
+		text-align: center;
+	}
+	.vc_page_dich_vu .noidunganh .text1, .vc_page_dich_vu .noidunganh .text2 {
+		width: 100%;
+		margin-left: 20px;
+	}
+	a::before, .vc_page_dich_vu .tab-header li.active:nth-child(2) > a::before, .vc_page_dich_vu .tab-header li.active:nth-child(3) > a::before {
+		left: -67px;
+	}
+	.vc_page_dich_vu .tab-header li.active > a {
+		width: auto;
+		margin-left: 90px;
+		font-size: 20px;
+	}
+	.vc_page_dich_vu .tab-header li > a {
+		padding-left: 91px;
+		font-size: 20px;
+	}
+	.vc_page_dich_vu .tab-header li:first-child > a::before, .vc_page_dich_vu .tab-header li:nth-child(2) > a::before, .vc_page_dich_vu .tab-header li:last-child > a::before {
+		left: 25px;
+	}
 	#vc_banner_2item.vc_row.vc_row-no-padding .wpb_column {
 		width: 100% !important;
 	}
@@ -571,6 +619,10 @@
 	}
 }
 @media (max-width: 1024px) {
+	.vc_content_text_page_product {
+		margin-top: 148px;
+		margin-left: 50px;
+	}
 	.vc_home_products .block-element>h3.title18 {
 		margin-bottom: 30px;
 	}
@@ -1014,6 +1066,28 @@
 	}
 }
 @media (max-width: 850px) {
+	.list-tang.vc_page_dich_vu .btn-scien {
+		padding-top: 0;
+		margin-bottom: 25px;
+	}
+	.vc_page_dich_vu .tab-content-product {
+		width: 60%;
+	}
+	.vc_page_dich_vu .list-tang .tab-header {
+		width: 40%;
+	}
+	.vc_page_dich_vu .tab-header li.active > a,
+	.vc_page_dich_vu .tab-header li > a{
+		font-size: 19px;
+	}
+	.vc_page_dich_vu .noidunganh .text1, .vc_page_dich_vu .noidunganh .text2 {
+		width: 100%;
+		margin-left: 20px;
+		margin-bottom: 13px;
+		padding-bottom: 0;
+		font-size: 13px;
+		line-height: 21px;
+	}
 	.vc_home_product_list.product-grid-view  {
 		padding-top: 30px !important;
 		padding-bottom: 30px !important;
@@ -1062,6 +1136,10 @@
 	}
 }
 @media (max-width: 768px) {
+	.vc_content_text_page_product {
+		margin-top: 148px;
+		margin-left: 20px;
+	}
 	#footer .copy-right-content {
 		margin-left: 0;
 	}
@@ -1463,6 +1541,31 @@
 	}
 }
 @media (max-width: 767px) {
+	#main-content #service-row .banner-info .service-text-link {
+		font-size: 17px;
+	}
+	#main-content #service-row .banner-info .service-header-title {
+		font-size: 25px;
+		line-height: 34px;
+	}
+	.vc_content_page_product p.vc_des_banner {
+		font-size: 18px;
+		line-height: 23px;
+	}
+	#main-content .vc_content_page_product #service-row .banner-info .container {
+		top: 0;
+	}
+	#main-content #service-row .col-sm-6:first-child {
+		padding-right: 0;
+	}
+	#main-content #service-row .col-sm-6:last-child {
+		padding-left: 0;
+	}
+	.vc_content_text_page_product {
+		margin-top: 30px;
+		margin-left: 20px;
+		margin-bottom: 30px !important;
+	}
 	.header-top-default {
 	    display: inline-block;
 	    vertical-align: middle;
@@ -2023,6 +2126,13 @@
 	}
 }
 @media (max-width: 568px) {
+	.vc_page_dich_vu .tab-content-product,
+	.vc_page_dich_vu .list-tang .tab-header {
+		width: 100%;
+	}
+	.vc_page_dich_vu .tab-header li.active > a, .vc_page_dich_vu .tab-header li > a {
+		font-size: 22px;
+	}
 	.vc_f_link {
 		margin-left: 0;
 		display: block;
@@ -2232,6 +2342,21 @@
 	}
 }
 @media (max-width: 550px) {
+	#main-content #service-row .col-sm-6:first-child {
+		padding-bottom: 20px;
+	}
+	.vc_content_text_page_product .title_1 {
+		font-size: 18px;
+	}
+	#main-content #service-row .banner-info .service-header-title {
+		font-size: 19px;
+		line-height: 25px;
+		margin-top: 0;
+	}
+	.banner-slider .banner-info p {
+		font-size: 14px;
+		line-height: 16px;
+	}
 	.header2-center > div > .wpb_wrapper .mega-menu .vc_row {
 		display: block;
 	}
@@ -3036,6 +3161,11 @@
 	}
 }
 @media (max-width: 320px) {
+	#main-content #service-row .banner-info .service-header-title {
+		font-size: 14px;
+		line-height: 19px;
+		margin-top: 0;
+	}
 	.link-fb iframe {
 	    width: 290px;
 	}
