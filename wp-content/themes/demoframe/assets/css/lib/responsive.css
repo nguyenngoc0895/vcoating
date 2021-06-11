@@ -571,6 +571,9 @@
 	}
 }
 @media (max-width: 1024px) {
+	.vc_home_products .block-element>h3.title18 {
+		margin-bottom: 30px;
+	}
 	.vc_home_products.blogs .desc-block {
 		width: 100%;
 	}
@@ -1011,6 +1014,34 @@
 	}
 }
 @media (max-width: 850px) {
+	.vc_home_product_list.product-grid-view  {
+		padding-top: 30px !important;
+		padding-bottom: 30px !important;
+	}
+	.vc_home_content_sv h5 {
+		position: initial;
+		bottom: initial;
+		margin-bottom: 20px;
+		text-align: center;
+		padding: 0;
+	}
+	.vc_home_content_box h2 {
+		line-height: 28px;
+		font-size: 21px;
+		padding: 17px 0 40px 0;
+	}
+	.vc_home_content_box p {
+		text-align: center;
+		position: initial;
+		bottom: initial;
+		margin-left: 0;
+	}
+	.vc_home_content_sv a {
+		padding: 8px;
+	}
+	.vc_home_service .vc_home_content_box .arrow {
+		display: none;
+	}
 	.header-2 .main-nav>#menu-main-menu>li>a {
 	    padding: 0 11px;
 	}
@@ -1031,6 +1062,55 @@
 	}
 }
 @media (max-width: 768px) {
+	#footer .copy-right-content {
+		margin-left: 0;
+	}
+	.vc_f_link:first-child {
+		margin-left: 0;
+	}
+	#footer-row2 > div {
+		width: 100%;
+	}
+	#footer .copy-right > p {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	#footer .copy-right p:last-child {
+		position: initial;
+		right: initial;
+	}
+	.vc_f_title_lang {
+		position: initial;
+		right: initial;
+	}
+	#footer .copy-right {
+		position: initial;
+		display: block;
+	}
+	.vc_f_box_text1 {
+		padding-left: 0;
+	}
+	.vc_f_box_text2 {
+		padding-left: 0;
+	}
+	.vc_f_box_text3 {
+		width: 100%;
+		margin-left: 0;
+	}
+	.vc_home_products.blogs.title_blog > .vc_home_products {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.vc_home_products.blogs.title_blog > .col-sm-8 {
+		width: 100%;
+	}
+	.vc_home_products.blogs.title_blog {
+		padding-top: 30px !important;
+	}
+	.vc_home_products .products .list-4-item {
+		width: 50% !important;
+		clear: initial;
+	}
 	.camket .tieude {
 	    font-size: 26px;
 	}
@@ -1943,6 +2023,64 @@
 	}
 }
 @media (max-width: 568px) {
+	.vc_f_link {
+		margin-left: 0;
+		display: block;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.vc_home_products.blogs.title_blog .block-element.blog-grid-view {
+		margin-bottom: 0 !important;
+	}
+	#vc_header_common_logo {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.vc_child_row .banner-info {
+		height: 100% !important;
+		padding: 30px 30px 0 30px;
+	}
+	.vc_list_image .block-title {
+		margin-bottom: 30px;
+		font-size: 36px;
+		line-height: 48px;
+		margin-top: 0;
+	}
+	.vc_home_products .style2_product .product-info {
+		padding: 20px 0px 0px 0px;
+	}
+	.vc_home_products .products .list-4-item {
+		width: 100% !important;
+		clear: initial;
+	}
+	.vc_home_content_box h2 {
+		line-height: 28px;
+		font-size: 21px;
+		padding: 28px 0 40px 0;
+	}
+	.vc_home_products .block-element>h3.title18 {
+		font-size: 36px;
+		line-height: 45px;
+	}
+	.vc_home_products .block-element>h3.title18 {
+		margin-bottom: 15px;
+	}
+	.vc_home_pdb30.vc_row, #vc_banner_2item.vc_row {
+		margin-bottom: 30px !important;
+	}
+	.vc_title .title18 {
+		font-size: 36px;
+	}
+	.vc_content_banner .banner-info {
+		max-height: 100%;
+	}
+	.vc_home_banner_btn button {
+		font-size: 12px;
+		height: 27px;
+		padding: 0 30px !important;
+		margin-right: 25px;
+		margin-bottom: 10px;
+	}
 	.sidebar.sidebar-right {
 	    padding: 0;
 	}
@@ -2211,6 +2349,16 @@
 	}
 }
 @media (max-width: 425px) {
+	.banner-slider .banner-info h1 {
+		font-size: 18px;
+		line-height: 27px;
+	}
+	#footer #footer-row2 .wpb_column.column_container.col-sm-3 {
+		padding: 30px 0 0 0 !important;
+	}
+	#footer-row2 {
+		padding-bottom: 30px;
+	}
 	.leave-comments .form-submit {
 		margin-bottom: 30px !important;
 	}
@@ -2715,6 +2863,19 @@
 	}
 }
 @media (max-width: 375px) {
+	#vc_banner_2item .col-sm-3 .banner-thumb {
+		display: none;
+	}
+	#vc_banner_2item .col-sm-3 .banner-info {
+		position: relative;
+		padding-bottom: 10px;
+	}
+	.banner-slider .banner-info p {
+		font-size: 12px;
+		line-height: 17px;
+		margin-bottom: 6px;
+		letter-spacing: 3px;
+	}
 	.summary .box-count-down {
 	    margin-left: 0px;
 	}
