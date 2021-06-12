@@ -17798,6 +17798,34 @@ a.vc_lienhe_a::after {
     overflow: hidden;
 }
 
+.vc_post_tinkhac .post-style2.item-post .post-info .excerpt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 62px;
+}
+.vc_post_tinkhac .item-post .post-info ul {
+    text-align: left;
+    margin-bottom: 2px;
+}
+.vc_post_tinkhac .item-post .post-info ul li {
+    margin-top: 0;
+}
+.single-post .dd_last_viewed.widget ul li a {
+    width: 100%;
+}
+.single-post .dd_last_viewed.widget ul li a {
+    padding: 10px 0 !important;
+}
+.single-post .dd_last_viewed.widget ul li a {
+    padding: 4px 0 !important;
+}
+.single-post .post-meta-data>li {
+    border-right: none;
+}
+.single-post .post-meta-data>li:last-child {
+    display: none;
+}
+
 @media (max-width: 1370px){
     .vc_page_dich_vu .tab-header li > a {
         padding: 31px 0 31px 166px;
