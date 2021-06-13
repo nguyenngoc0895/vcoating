@@ -17825,7 +17825,9 @@ a.vc_lienhe_a::after {
 .single-post .post-meta-data>li:last-child {
     display: none;
 }
-
+.element-slide_carousel {
+    top: 30px;
+}
 @media (max-width: 1370px){
     .vc_page_dich_vu .tab-header li > a {
         padding: 31px 0 31px 166px;
