@@ -16062,7 +16062,6 @@ cursor: pointer;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
-    letter-spacing: 2px;
 }
 
 .vc_home_banner_btn button {
@@ -16926,8 +16925,7 @@ a.vc_f_link:hover {
 	color: #ffffff;
 }
 
-.vc_page_dich_vu .tab-header li > a, 
-.vc_page_dich_vu .tab-header li > a:hover{
+.vc_page_dich_vu .tab-header li > a{
 	font-weight: 800;
 font-size: 24px;
 line-height: 29px;
@@ -16937,6 +16935,10 @@ background: #EC702D;
 color: #FFFFFF;
     padding: 31px 140px 31px 209px;
 position: relative;
+}
+.vc_page_dich_vu .tab-header li.active > a:hover,
+.vc_page_dich_vu .tab-header li.active > a:focus {
+    border: none;
 }
 .list-tang .tab-header {
     width: 530px;
@@ -16992,8 +16994,7 @@ background: #F3F6FA;
 color: #313336;
 
 }
-.vc_page_dich_vu .tab-header li > a, .vc_page_dich_vu .tab-header li:hover > a, .vc_page_dich_vu .tab-header li > a:hover,
-.vc_page_dich_vu .tab-header li > a:focus {
+.vc_page_dich_vu .tab-header li > a {
 	border: none;
 	margin: 0;
 border-radius: 0;
@@ -17530,7 +17531,7 @@ content: "";
 
     padding: 34px;
     text-align: left;
-    padding-left: 150px;
+    padding-left: 110px;
 }
 .vc_text_lienhe .title_div {
     background: #EC702D;
@@ -17582,7 +17583,7 @@ a.vc_lienhe_a::after {
 .vc_text_lienhe .title_div p::after {
     content: url(lienhe2.png);
     top: 24px;
-    left: 72px;
+    left: 31px;
     position: absolute;
 }
 .vc_text_lienhe.lh2 .title_div p::after {
@@ -17724,7 +17725,13 @@ a.vc_lienhe_a::after {
 
 }
 #myDropdown123 a.active {
-    background: #F47321;
+    background: #d4cfcf;
+}
+#myDropdown123 a.active:hover {
+    color: #1B1B1B;
+}
+#myDropdown123 a:hover {
+    color: #F47321;
 }
 #myDropdown123.active {
     display: block;
@@ -17828,6 +17835,17 @@ a.vc_lienhe_a::after {
 .element-slide_carousel {
     top: 30px;
 }
+.vc_home_content_sv .sdt_vc {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    background: none;
+    margin-bottom: 0;
+}
+
+
+
+
 @media (max-width: 1370px){
     .vc_page_dich_vu .tab-header li > a {
         padding: 31px 0 31px 166px;
@@ -17844,5 +17862,28 @@ a.vc_lienhe_a::after {
 @media (max-width: 1200px){
     .main-nav .toggle-mobile-menu span, .main-nav .toggle-mobile-menu::after, .main-nav .toggle-mobile-menu::before {
         background: #303188;
+    }
+}
+@media (min-width: 1500px){
+    .vc_home_products.blogs .adv-thumb-link {
+        height: 300px;
+    }
+    .vc_home_products.blogs .adv-thumb-link>img {
+        height: 100%;
+    }
+}
+@media (min-width: 1400px){
+    .vc_home_products.blogs .adv-thumb-link {
+        height: 234px;
+    }
+}
+
+@media (min-width: 1200px){
+    .vc_home_products.blogs .adv-thumb-link {
+        height: 220px;
+    }
+    .vc_home_product_list .desc-block {
+        margin-bottom: 0;
+        margin-top: 14px;
     }
 }
