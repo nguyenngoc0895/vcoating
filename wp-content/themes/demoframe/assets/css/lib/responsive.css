@@ -1195,8 +1195,13 @@
 		font-size: 16px;
 	}
 	.vc_content_text_page_product {
-		margin-top: 148px;
+		margin-top: 20px;
 		margin-left: 20px;
+	}
+	.vc_content_text_page_product .title_1 {
+		font-size: 16px;
+		line-height: 17px;
+		letter-spacing: 0;
 	}
 	#footer .copy-right-content {
 		margin-left: 0;
@@ -1597,8 +1602,30 @@
 	    margin-top: 0px;
 	    height: auto;
 	}
+	#main-content #service-row .banner-info .service-header-title {
+		font-weight: 800;
+		font-size: 25px;
+		line-height: 31px;
+		text-align: center;
+		letter-spacing: 0;
+		text-transform: uppercase;
+	}
+	.vc_content_page_product p.vc_des_banner {
+		font-size: 23px;
+		line-height: 24px;
+		letter-spacing: 0;
+	}
+	#main-content .vc_content_page_product #service-row .banner-info {
+		top: 20px;
+	}
 }
 @media (max-width: 767px) {
+	#main-content #service-row.col-sm-6:first-child {
+		margin-bottom: 20px;
+	}
+	.vc_content_page_product #service-row div.banner-advs {
+		margin-bottom: 0;
+	}
 	.vc_sibar_thongtin .post-style2 .post-info {
 		padding-left: 20px;
 	}
@@ -1635,10 +1662,10 @@
 	#main-content .vc_content_page_product #service-row .banner-info .container {
 		top: 0;
 	}
-	#main-content #service-row .col-sm-6:first-child {
+	#main-content #service-row.col-sm-6:first-child {
 		padding-right: 0;
 	}
-	#main-content #service-row .col-sm-6:last-child {
+	#main-content #service-row.col-sm-6:last-child {
 		padding-left: 0;
 	}
 	.vc_content_text_page_product {
@@ -2439,8 +2466,11 @@
 	}
 }
 @media (max-width: 550px) {
-	#main-content #service-row .col-sm-6:first-child {
-		padding-bottom: 20px;
+	#main-content #service-row.col-sm-6:last-child {
+		padding-left: 0 !important;
+	}
+	#main-content #service-row.col-sm-6:first-child {
+		padding-right: 0 !important;
 	}
 	.vc_content_text_page_product .title_1 {
 		font-size: 18px;
@@ -2571,6 +2601,16 @@
 	}
 }
 @media (max-width: 425px) {
+	.vc_content_text_page_product {
+		margin-top: 0;
+	}
+	.vc_content_text_page_product .title_1 {
+		line-height: 23px;
+	}
+	#main-content .vc_content_page_product #service-row .banner-advs .banner-info {
+		left: 20px;
+		right: 20px;
+	}
 	.vc_post_tinkhac .list-3-item {
 		width: 100%;
 	}
