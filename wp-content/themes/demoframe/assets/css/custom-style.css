@@ -17893,3 +17893,14 @@ a.vc_lienhe_a::after {
         margin-top: 14px;
     }
 }
+
+@media (min-width: 769px){
+    .vc_lh_content .text-div {
+        height: 120px;
+        overflow: hidden;
+    }
+    .vc_home_pdb30 .banner-slider .item-slider {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
